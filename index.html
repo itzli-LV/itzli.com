@@ -1,30 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Page Title</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <title>itzli</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
-    <div class="row m-0 p-0" style="width: 100%">
-        <div class="col m-0 p-0">
-            <button type="button" class="btn btn-success btn-lg btn-block m-0 p-0" style="height:50vh"><p>Football map</p></button>
-        </div>
-        <div class="col m-0 p-0">
-            <button type="button" class="btn btn-primary btn-lg btn-block m-0 p-0" style="height:50vh"><p>Spotify Analysis</p></button>    
-        </div>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">ITZLI</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" placeholder="Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Go</button>
+        </form>
+      </div>
+
     </div>
-    <div class="row m-0 p-0" style="width: 100%">
-        <div class="col m-0 p-0">
-            <button type="button" class="btn btn-danger btn-lg btn-block m-0 p-0" style="height:50vh"><p>Artificial Intelligence</p></button>
-        </div>
-        <div class="col m-0 p-0">
-            <button type="button" class="btn btn-dark btn-lg btn-block m-0 p-0" style="height:50vh"><p>Small projects</p></button>
-        </div>
+  </div>
+  <div class="jumbotron">
+    <div class="container">
+      <br>
+      <h1>ITZLI is here.</h1>
+      <p>Данный сайт это дом itzli и всех его проектов целей и тд и тп, бла бла. Сайт будет постоянно обновляться (я уж на это надеюсь). Будут добавляться новые главы и материалы.</p>
+      <p><a href="#" class="btn btn-info btn-lg">Узнать большe &raquo;</a></p>
     </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Футбол</h2>
+        <p>В данном блоке будут рассказаны идеи о приложениях/сайтах на футбольную тему. </p>
+        <p><a href="#" class="btn btn-info btn">Пенальти! &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Программирование</h2>
+        <p>Все что связано с прогерством, здесь.</p>
+        <p><a href="#" class="btn btn-info btn">Тык &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Курсы валют/крипты/акций.</h2>
+        <p>Это не биржа, но посмотреть стоимость бетховена можно тут.</p>
+        <p><a href="#" class="btn btn-info btn">$$$ &raquo;</a></p>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <p>&copy; Все права защищены 2021</p>
+    </footer>
+  </div>
+  
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
 </body>
 </html>
